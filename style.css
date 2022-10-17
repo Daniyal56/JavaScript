@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Poppins';
+    /* font-style: NORMAL_OR_ITALIC;
+    font-weight: NUMERIC_WEIGHT_VALUE; */
+    src: url('./fonts/Poppins-Regular.ttf') format('woff2');
+  }
+
+  body {
+    font-family: 'Poppins';
+    font-size: 16px;
+  }
+
+  div#accordionPanelsStayOpenExample{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
+  span.navbar-brand.mb-0.h1{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+
+  button.accordion-button{
+    letter-spacing: 0.1rem;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #79affa; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2c84ff; 
+   border-color: 10px solid #e7f1ff;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #212529; 
+  }
