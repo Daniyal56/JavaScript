@@ -2,7 +2,7 @@
     font-family: 'Poppins';
     /* font-style: NORMAL_OR_ITALIC;
     font-weight: NUMERIC_WEIGHT_VALUE; */
-    src: url('./fonts/Poppins-Regular.ttf') format('woff2');
+    src: url('./Poppins-Regular.ttf') format('woff2');
   }
 
   body {
